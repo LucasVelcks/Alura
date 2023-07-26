@@ -15,3 +15,9 @@ console.log(nomeIdade ('Lucas', 24))
 function soma (numero3, numero4) {
     return numero3 + numero4
 }
+
+function multiplicação (numero3, numero4) {
+    return numero3 * numero4
+}
+
+console.log (multiplicação (soma (4, 5), soma (3, 3)))
